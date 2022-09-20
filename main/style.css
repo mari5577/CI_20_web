@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(52, 52, 52);
+}
+.navigator {/*Скопировать меню от сюда*/
+    display: flex;
+    flex-wrap: nowrap;
+}
+.button {
+    width: 300px;
+    height: 75px;
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+    border: none;
+}
+.button:hover {opacity: 0.8; border: rgb(0, 0, 0); border-style: solid;}
+.button1 {background-color: rgb(0, 127, 240);}
+.button2 {background-color: rgb(0, 167, 0);} 
+.button3 {background-color: rgb(224, 174, 0);}  
+.button4 {background-color: rgb(89, 49, 181);} 
+.button5 {background-color: rgb(242, 69, 26);}
+.button6 {background-color: rgb(197, 48, 147);}
+.button7 {background-color: rgb(218, 14, 15); margin: 5px; height: 100px;}
+/*До сюда*/
+/*Содержимое страницы*/
+.menu {
+    width: 25%;
+    float: left;
+}
+.main {
+    width: 74%;
+    float: left;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.sing{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sing1{
+    background-color: rgb(224, 174, 0);
+    width: 350px;
+}
+.sing2{
+    background-color: rgb(0, 127, 240);
+    width: 350px;
+}
+.text{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size:60px;
+    width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sing3{
+    background-color: rgb(0, 167, 0);
+}
+.sing4{
+    background-color: rgb(89, 49, 181);
+}
+.sing5{
+    background-color: rgb(242, 69, 26);
+}
+
